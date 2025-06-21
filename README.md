@@ -7,7 +7,7 @@
 Example of usage:
 
 ```cpp
-bimap<int, char> bm
+bimap<int, char> bm;
 bm.insert(42, 'h');
 char found_right = bm.at_left(42); // `found_right` == 'h'
 int found_left = bm.at_right('h'); // `found_left` == 42
